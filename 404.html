@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Page Not Found — Mane Mogul</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700;800&family=Cormorant+Garamond:ital,wght@1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  .not-found { min-height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 80px 24px; }
+  .not-found .num { font-size: clamp(80px, 18vw, 160px); font-weight: 800; letter-spacing: -0.04em; line-height: 1; opacity: 0.12; }
+  .not-found h1 { margin-top: 8px; }
+</style>
+</head>
+<body>
+<header class="nav">
+  <a href="index.html" class="nav__brand">Mane Mogul</a>
+  <nav class="nav__menu" aria-label="Primary">
+    <a class="nav__link" href="index.html">Home</a>
+    <a class="nav__link" href="meet-the-mogul.html">Meet the Mogul</a>
+    <a class="nav__link" href="packages.html">Packages</a>
+    <a class="nav__link" href="contact.html">Contact</a>
+    <a class="nav__cta" href="book-a-call.html">Book a Call →</a>
+  </nav>
+  <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</header>
+
+<div class="not-found container">
+  <div class="num">404</div>
+  <h1>Page not found.</h1>
+  <p style="margin-top: 16px; max-width: 36ch;">Looks like this page snipped away. Let's get you back on track.</p>
+  <a class="btn" href="index.html" style="margin-top: 40px;"><span>Back to Home</span></a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

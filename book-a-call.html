@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#000000" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>Book a Call — Mane Mogul</title>
+<meta name="description" content="Book a 30-minute discovery call with Mane Mogul. Map your next move behind the chair." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&amp;family=Inter:wght@400;500&amp;family=Cormorant+Garamond:ital,wght@1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  :root {
+    --display: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Cormorant Garamond", "Times New Roman", serif;
+    --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-transition" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="index.html" class="nav__brand">Mane Mogul</a>
+  <nav class="nav__menu" aria-label="Primary">
+    <a class="nav__link" href="index.html">Home</a>
+    <a class="nav__link" href="meet-the-mogul.html">Meet the Mogul</a>
+    <a class="nav__link" href="packages.html">Packages</a>
+    <a class="nav__link" href="contact.html">Contact</a>
+    <a class="nav__cta" href="book-a-call.html" aria-current="page">Book a Call →</a>
+  </nav>
+  <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</header>
+
+<section class="page-head container">
+  <div class="page-head__crumb">Home / Book a Call</div>
+  <h1 class="page-head__title display">Book a <em class="serif">Call.</em></h1>
+  <p class="page-head__lede reveal">A 30-minute discovery call. Free. No pressure, no pitch — just a real conversation about where you are and where you want to go.</p>
+</section>
+
+<!-- STEPS -->
+<section class="container">
+  <div class="reveal" style="margin-bottom: 40px;">
+    <div class="eyebrow"><span class="dot"></span> How it works</div>
+  </div>
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step__num">01.</div>
+      <h3 class="step__title">Pick a time.</h3>
+      <p>Choose a slot that fits your week. We'll send a confirmation with the details.</p>
+    </div>
+    <div class="step reveal reveal--delay-1">
+      <div class="step__num">02.</div>
+      <h3 class="step__title">Tell us where you stand.</h3>
+      <p>Quick intake so we walk in with context. The 30 minutes are about you, not your résumé.</p>
+    </div>
+    <div class="step reveal reveal--delay-2">
+      <div class="step__num">03.</div>
+      <h3 class="step__title">Map the next move.</h3>
+      <p>Walk away with a clear sense of which package fits and what comes next — even if it isn't us.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING (mock interactive) -->
+<section class="container" id="schedule">
+  <div class="reveal" style="margin-bottom: 40px; display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 20px;">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Schedule</div>
+      <h2 style="margin-top: 24px;">Find a time.</h2>
+    </div>
+    <p style="max-width: 32ch;">All times shown in Central. We'll confirm via email within an hour.</p>
+  </div>
+
+  <div class="calendar-mock reveal">
+    <!-- LEFT: calendar -->
+    <div>
+      <h4>May 2026</h4>
+      <div class="cal-grid">
+        <span class="head">S</span><span class="head">M</span><span class="head">T</span><span class="head">W</span><span class="head">T</span><span class="head">F</span><span class="head">S</span>
+        <span class="dim">26</span><span class="dim">27</span><span class="dim">28</span><span class="dim">29</span><span class="dim">30</span><span>1</span><span>2</span>
+        <span>3</span><span>4</span><span>5</span><span>6</span><span class="active">7</span><span>8</span><span>9</span>
+        <span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span>
+        <span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span>
+        <span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+        <span>31</span><span class="dim">1</span><span class="dim">2</span><span class="dim">3</span><span class="dim">4</span><span class="dim">5</span><span class="dim">6</span>
+      </div>
+    </div>
+    <!-- RIGHT: time slots -->
+    <div>
+      <h4>Available — Thursday, May 7</h4>
+      <div class="slots">
+        <button type="button" class="slot">09:00 AM</button>
+        <button type="button" class="slot">10:30 AM</button>
+        <button type="button" class="slot">12:00 PM</button>
+        <button type="button" class="slot">02:00 PM</button>
+        <button type="button" class="slot">03:30 PM</button>
+        <button type="button" class="slot">05:00 PM</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="reveal" style="margin-top: 24px; display: flex; justify-content: flex-end;">
+    <a class="btn" href="#confirm">
+      <span>Continue</span>
+      <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2V10"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- CONFIRM FORM -->
+<section class="container" id="confirm">
+  <div class="split">
+    <div class="reveal">
+      <div class="eyebrow"><span class="dot"></span> Your details</div>
+      <h2 style="margin-top: 24px;">Confirm <em class="serif">your call.</em></h2>
+      <p style="margin-top: 24px;">A quick intake — so the conversation starts with momentum, not introductions.</p>
+    </div>
+    <form class="form reveal reveal--delay-1" data-fake>
+      <div class="field">
+        <input type="text" id="bcFirst" placeholder=" " required />
+        <label for="bcFirst">First Name</label>
+      </div>
+      <div class="field">
+        <input type="text" id="bcLast" placeholder=" " required />
+        <label for="bcLast">Last Name</label>
+      </div>
+      <div class="field field--full">
+        <input type="email" id="bcEmail" placeholder=" " required />
+        <label for="bcEmail">Email</label>
+      </div>
+      <div class="field field--full">
+        <input type="tel" id="bcPhone" placeholder=" " />
+        <label for="bcPhone">Phone</label>
+      </div>
+      <div class="field field--full">
+        <select id="bcStage" required>
+          <option value="" disabled selected hidden>&nbsp;</option>
+          <option>0–2 years (New Talent)</option>
+          <option>2–7 years (Rising Pro)</option>
+          <option>7+ years (Elite)</option>
+          <option>Salon owner</option>
+        </select>
+        <label for="bcStage">Where are you in your career?</label>
+      </div>
+      <div class="field field--full">
+        <textarea id="bcGoals" rows="3" placeholder=" "></textarea>
+        <label for="bcGoals">What do you want to walk away with?</label>
+      </div>
+      <div class="submit-row">
+        <button type="submit" class="btn btn--solid">
+          <span>Confirm Call</span>
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2V10"/></svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial container">
+  <div class="reveal">
+    <blockquote>
+      <span class="serif">“</span>The 30 minutes I gave Heather changed the next 30 years of my career.<span class="serif">”</span>
+    </blockquote>
+    <cite>— Mane Mogul Client</cite>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div><h3 class="footer__title">Master.<br/>Monetize.<br/><em class="serif">Mane.</em></h3></div>
+      <div class="footer__col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meet-the-mogul.html">Meet the Mogul</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="book-a-call.html">Book a Call</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Connect</h5>
+        <ul>
+          <li><a href="mailto:manemogul.booking@gmail.com">manemogul.booking@gmail.com</a></li>
+          <li><a href="tel:5048589572">504.858.9572</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#">Instagram ↗</a></li>
+          <li><a href="#">Facebook ↗</a></li>
+          <li><a href="#">YouTube ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Mane Mogul</span>
+      <span>All rights reserved</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
